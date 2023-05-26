@@ -1,0 +1,32 @@
+<link rel="stylesheet" href="/css/sign.css">
+<div class="mainContainer ">
+    <div class="companyLogo">
+        <img src="../images/logo.png">
+    </div>
+
+    <div class="formInput">
+        <h1> Welcome</h1>
+        <div class = "main">
+        <marquee class="ma"  direction = "left" loop="" >
+            <div class="g1" style="color:darkorange">If you do not change direction, you 
+                may end up where you are heading. Sometimes it is the 
+                people no one can imagine anything of who do the things no one 
+                can imagine. </div>
+        </marquee>
+        </div>
+        <form method="POST" action="/users/create-session" >
+            <input type="email" name="email" placeholder=" Please Enter Your Email" required><br>
+            <input type="password" name="password" placeholder="Enter An Unique Password" required><br>
+            
+            <div class= 'buttons'>
+                <div class="forgetPassword"><a href="/users/forgetPassword"> ForgetPassword </a></div>
+                <div class = 'submitButtons'><button type="submit">Sign In</button></div>
+                
+            </div>
+
+            <div class="extraStuff">
+                <small> If You Don't have account ?</small>
+                <a href="/users/sign-up"> Register has New User</a>
+            </div>
+    </div>
+</div> 
